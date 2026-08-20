@@ -8,6 +8,18 @@ public class Contato {
     private String instagram;
     private String tipo;
 
+
+    @Override
+    public String toString() {
+        return "Contato{" +
+                "nome='" + nome + '\'' +
+                ", id=" + id +
+                ", celular='" + celular + '\'' +
+                ", email='" + email + '\'' +
+                ", instagram='" + instagram + '\'' +
+                ", tipo='" + tipo + '\'';
+    }
+
     public String getNome() {
         return nome;
     }
