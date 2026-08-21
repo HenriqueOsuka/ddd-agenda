@@ -12,12 +12,12 @@ public class Contato {
     @Override
     public String toString() {
         return "Contato{" +
-                "nome='" + nome + '\'' +
+                "nome='" + nome +
                 ", id=" + id +
-                ", celular='" + celular + '\'' +
-                ", email='" + email + '\'' +
-                ", instagram='" + instagram + '\'' +
-                ", tipo='" + tipo + '\'';
+                ", celular='" + celular +
+                ", email='" + email +
+                ", instagram='" + instagram +
+                ", tipo='" + tipo;
     }
 
     public String getNome() {
